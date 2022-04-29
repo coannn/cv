@@ -8,60 +8,91 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>♥ Qiyang Yan's Personal Site ♥</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" href="css/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Merriweather:wght@700&family=Montserrat:wght@100&display=swap" rel="stylesheet">
         <meta name="description" content=" This is a CV page of Qiyang Yan">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
     </head>
     <body>
-        <table>
-            <tr>
-                <td><img src = "https://media-exp1.licdn.com/dms/image/C4E03AQEavqqK_Agj2w/profile-displayphoto-shrink_400_400/0/1638938161015?e=1656547200&v=beta&t=9OAuwzm-cijKfOLpoL6WmQeaYl4lm9te-zg_gzJm7ck" alt="Qiyang Yan profile pic" >    </td>
-                <td>
-                    <h1> Qiyang Yan </h1>
-                    <p>
-                        <!--a is the anchor tag-->
-                        <em>Computational Science postdoc of <a href="https://www.pnnl.gov/">PNNL</a></em>
-                    </p>
-                </td>
-            </tr>
-        </table>
-        
+        <!--content divider-->
+        <div class="upper">
+            <img class="cloud-top" src="images/cloud.png" alt="cloud-img">
+            <h1><em>I am Qiyang Yan</em></h1>
+            <h2 class="header">a Postdoc at PNNL</h2>
+            <!--span is inline word-->
+            <span>Hello</span>
+            <span>here</span>
+            <img class="cloud-middle" src="images/cloud.png" alt="cloud-img"> 
+            <img class="cloud-bottom" src="images/cloud.png" alt="cloud-img">   
+            <img class="mountain" src="images/mountain.png" alt="mountain-img"> 
+        </div>
 
-        <p>This is the introduction part of about Qiyang Yan.</p>
-        <hr>
-        <h3>Education</h3>
-        <ul>
-            <li>PhD   </li>
-            <li>MS    </li>
-            <li>Bachler</li>
-        </ul>
-        <hr>
-        <h3>Skills</h3>
-        <table cellspacing = "10">
-            <thead>         
-            </thead>
-            <tbody>
-                <tr>
-                    <td>skill 1</td>
-                    <td> rating </td>
-                </tr>
-            </tbody>
-        </table>
-        <hr>
-        <h3>Experiences</h3>
-        <ol>
-            <li>first Experience</li>
-            <li>second Experience</li>
-        </ol>
-        <hr>
-        <h3>Projects</h3>
-        <ol>
-            <li>first project</li>
-            <li>second project</li>
-        </ol>
-        <hr>
-        <h3><a href="hobby.html">My hobbies</a></h3>
-        <h3><a href="contact.html">Contact me!</a></h3>
-        <script src="" async defer></script>
+        <div class="middle">
+            <div class="profile">
+                <img class="circular" src = "https://media-exp1.licdn.com/dms/image/C4E03AQEavqqK_Agj2w/profile-displayphoto-shrink_400_400/0/1638938161015?e=1656547200&v=beta&t=9OAuwzm-cijKfOLpoL6WmQeaYl4lm9te-zg_gzJm7ck" alt="Qiyang Yan profile pic" > 
+              <h2>Hello.</h2>
+              <p class="intro">I am currently a Computational Postdoc at PNNL. I am passionate about programming and love to solve problems. </p>
+            </div>
+            <hr>
+            <div class="skills">
+              <h2>My CV</h2>
+              <div class="skill-row">
+                <img class="skillimg1" src = "images/experience.png" alt="experience pic" > 
+                <h3>Education</h3>
+                <p class="skill-dp1"><em>Georgia Institute of Technology, Atlanta, GA, USA</em></p>
+                <p class="skill-dp1">M.S. in Computer Science (Online) </p>
+                <p class="skill-dp1">Ph.D. in Atmospheric Sciences, minor in Statistics (GPA 3.77/4.00)</p>
+                <p class="skill-dp1"><em>Lanzhou University, Lanzhou, Gansu, China</em></p>
+                <p class="skill-dp1">B.S. in Atmospheric Sciences (GPA 4.69/5.00)</p>
+              </div>
+              <hr>
+              <div class="skill-row">
+                <img class="skillimg2" src="images/hard-work.png" alt="skill pic">
+                <h3>Skills</h3>
+                <p class="skill-dp2"><em>Programming language</em>: Python, Java, C++, Fortran, JavaScript, JSON, SQL, Bash, HTML, YAML, Markdown</p>
+                <p class="skill-dp2"><em>System/Tool</em>: Linux, Git, REST API, Flask, PostgreSQL, Bokeh, VM, React, Heroku, Agile, CMake, AWS, MkDocs</p>
+                <p class="skill-dp2"><em>Courses</em>: Software Development Process, Network Security, Graduate Algorithms, Database</p>
+              </div>
+              <hr>
+              <div class="skill-row">
+                <img class="skillimg2" src="images/project-management.png" alt="project pic">
+                <h3>Projects</h3>
+                <p class="skill-dp2"><em>Android Best Job Offer App</em></p>
+                <p class="skill-dp2">Developed an Android App that helps users to find the best offer via comparing job base salaries, compensations, location and other benefits based on the user’s comparison settings.</p>
+                <p class="skill-dp2">Analyzed gathered requirements and designed a UML class diagram and user-case model to show the design of the system.</p>
+                <p class="skill-dp2">Created the UI and builded, tested and implemented the application in the Android Studio using Java and JUnit.</p>
+                <hr>
+                <p class="skill-dp2"><em>Air Quality Viewer Web Application</em></p>
+                <p class="skill-dp2">Developed a webpage utilizing HTML and CSS to show the predicted daily and weekly pollutant levels with an image viewer and animation viewer.</p>
+                <p class="skill-dp2">Visualized simulated air pollutants in the continental US from the 3-D model.</p>
+                <hr>
+              </div>
+
+            </div>
+            <hr>
+            <div class="contact-me">
+              <h2>Get In Touch</h2>
+              <p class="skill-dp3">I am currently looking for a software engineer position in bay area. If you are interested in my background and experience, please send me a message.</p>
+              <a class="btn" href="mailto:qiyangyan1@gmail.com"><strong>CONTACT ME</strong></a>
+            </div>
+          </div>
+          
+          
+          <div class="bottom">
+            <a class="footer-link" href="https://www.linkedin.com/in/qiyang-yan/"><strong>LinkedIn</strong></a>
+            <a class="footer-link" href="tel: 4044098065"><strong>Phone</strong></a>
+            <a class="footer-link" href=""><strong>Address Zip: 94089</strong></a>
+            <p class="copyright">© Qiyang Yan. All rights reserved.</p>
+        </div>
+        
     </body>
 </html>

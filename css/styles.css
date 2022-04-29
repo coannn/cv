@@ -1,0 +1,198 @@
+body {
+    background-color: #F8ECD1;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 110%;
+}
+
+
+h1{
+    margin: 10px;
+    padding: 50px auto 0 auto;
+    color:#75535b ;
+    line-height: 1.5;
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem ;/* 100% = 16px = 1em These will impact by the parent size. Use rem, it doesn't get affected*/
+    /*width: 30%; */
+    /*margin: 0 auto 0 auto; /* use with width to center */
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color:#75535b ;
+    padding: 10px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color:#75535b ;
+ }
+
+hr {
+    border-color: #c9b3ba;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 0.5rem;
+    width: 5%;
+    margin: 80px auto;
+}
+
+p{
+    line-height: 2;
+}
+
+span{
+    visibility: hidden; /***take a postion**/
+    display: none;/**no position taken**/
+    display: inline-block;/*position to a line*/
+}
+
+img{
+    height: 150px;
+    width: 150px;  
+}
+
+a{
+    color:#43272d;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#e4e4e4;
+}
+
+.header{
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+}
+
+.upper{
+    background-color: #ddbeb6;
+    padding: 20px;
+    /* position: relative;
+    padding: 50px; */
+}
+
+.intro{
+    margin: auto;
+    width: 80%;
+    text-align: middle;
+}
+
+.middle{
+    margin: 100px, 0px, 200px, 0px;
+    padding: 20px;
+    background-color: #ddbeb6;
+}
+.bottom{
+    padding: 20px;
+    background-color: #AC7D88;
+}
+.mountain{
+    width: 1000px;
+    height: 500px;
+}
+
+.cloud_top {
+    /*position: relative; /* relative does not change other boxes**/
+    position: absolute; /* absolute change to the relative position the lower level background*/
+    top:50px;
+    right: 10%;
+    margin: 0 auto 0 auto;
+}
+.cloud-middle{
+    position: absolute; /* absolute change to the relative position the lower level background*/
+    top:200px;
+    left: 80%;
+}
+
+.cloud-bottom {
+    /*position: relative; /* relative does not change other boxes**/
+    position: absolute; /* absolute change to the relative position the lower level background*/
+    top:200px;
+    right: 80%;
+    margin: 0 auto 0 auto;
+}
+.circular{
+    border-radius: 100%;
+}
+
+.skill-row {
+    width: 80%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.skillimg1{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.skillimg2{
+    width: 90px;
+    height: 80px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.skill-dp3{
+    width: 100%;
+    margin: 50px;
+}
+/* clear the float for p*/
+.skill-dp1{
+    clear: left;
+    text-align: left;
+}
+
+.skill-dp2{
+    clear: left;
+    text-align: left;
+} 
+
+.contact-me{
+    width: 70%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #DEB6AB;
+    background-image: -webkit-linear-gradient(top, #DEB6AB, #AC7D88);
+    background-image: -moz-linear-gradient(top, #DEB6AB, #AC7D88);
+    background-image: -ms-linear-gradient(top, #DEB6AB, #AC7D88);
+    background-image: -o-linear-gradient(top, #DEB6AB, #AC7D88);
+    background-image: linear-gradient(to bottom, #DEB6AB, #AC7D88);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    background: #c995a5;
+    background-image: -webkit-linear-gradient(top, #c995a5, #85586F);
+    background-image: -moz-linear-gradient(top, #c995a5, #85586F);
+    background-image: -ms-linear-gradient(top, #c995a5, #85586F);
+    background-image: -o-linear-gradient(top, #c995a5, #85586F);
+    background-image: linear-gradient(to bottom, #c995a5, #85586F);
+    text-decoration: none;
+  }
+
+  .copyright{
+      color:#d1d1d1;
+      font-size: 0.75rem;
+  }

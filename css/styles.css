@@ -1,11 +1,14 @@
+html, body {
+    margin: 0;
+    min-height: 100%;
+    left: 0;
+}
 body {
-    background-color: #F8ECD1;
-    margin: 0px;
+    background-color: #ddbeb6;
     text-align: center;
-    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 110%;
 }
-
 
 h1{
     margin: 10px;
@@ -66,58 +69,127 @@ a:hover{
     color:#e4e4e4;
 }
 
+.container-fluid{
+    background-color: #ddbeb6;   
+    box-sizing: border-box;
+}
+
 .header{
-    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
 }
 
 .upper{
     background-color: #ddbeb6;
     padding: 20px;
-    /* position: relative;
-    padding: 50px; */
+    left: 0;
 }
 
 .intro{
     margin: auto;
     width: 80%;
     text-align: middle;
+    font-size: 1.4rem;
 }
 
 .middle{
     margin: 100px, 0px, 200px, 0px;
-    padding: 20px;
+    padding: 50px;
+    padding-top: 100px;
     background-color: #ddbeb6;
 }
-.bottom{
-    padding: 20px;
-    background-color: #AC7D88;
+
+
+#title{
+    background-color: #ddbeb6;
+    color:white;
 }
+
+/**nav bar**/
+.navbar-brand{
+    width:  95px;
+    height: 110px;
+    margin-left: 8%;
+}
+
+.navbar{
+    padding: 2.0rem 0 3.0rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+}
+
+.title{
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+
+.footer{
+    width: 100%;
+    background-color: #AC7D88;
+    text-align: center;
+    padding: 7% 15%;
+}
+
 .mountain{
-    width: 1000px;
-    height: 500px;
+    width: 50%;
+    height: 25%;
 }
 
 .cloud_top {
     /*position: relative; /* relative does not change other boxes**/
     position: absolute; /* absolute change to the relative position the lower level background*/
-    top:50px;
+    top:5%;
     right: 10%;
     margin: 0 auto 0 auto;
 }
+
 .cloud-middle{
     position: absolute; /* absolute change to the relative position the lower level background*/
-    top:200px;
+    top:10%;
     left: 80%;
+    animation: forwards;
+    animation-duration: 2s;
+    animation-name: move_top;
 }
 
 .cloud-bottom {
     /*position: relative; /* relative does not change other boxes**/
     position: absolute; /* absolute change to the relative position the lower level background*/
-    top:200px;
+    top:10%;
     right: 80%;
     margin: 0 auto 0 auto;
+    animation: forwards;
+    animation-duration: 2s;
+    animation-name: move_bottom;
 }
+
+@keyframes move_top {
+    from {left: 80%;}
+    to {top: 20%; left:70%;}
+}
+
+@keyframes move_bottom {
+    from {right: 80%;}
+    to {top: 20%; right:70%;}
+}
+
+.profile{
+    background-color: #AC7D88;
+    padding: 100px 0 250px;
+}
+
+.selfpic{
+    margin-top: 150px;
+}
+
+
 .circular{
     border-radius: 100%;
 }
@@ -145,11 +217,7 @@ a:hover{
     margin-bottom: 5px;
 }
 
-.skill-dp3{
-    width: 100%;
-    margin: 50px;
-}
-/* clear the float for p*/
+
 .skill-dp1{
     clear: left;
     text-align: left;
@@ -159,6 +227,15 @@ a:hover{
     clear: left;
     text-align: left;
 } 
+
+.skill-dp3{
+    width: 100%;
+    margin: 50px;
+}
+
+.text{
+    color: black;
+}
 
 .contact-me{
     width: 70%;
@@ -176,6 +253,7 @@ a:hover{
     -moz-border-radius: 10;
     border-radius: 50px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;

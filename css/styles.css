@@ -87,7 +87,7 @@ a:hover{
 
 .intro{
     margin: auto;
-    width: 80%;
+    width: 50%;
     text-align: middle;
     font-size: 1.4rem;
 }
@@ -112,6 +112,10 @@ a:hover{
     margin-left: 8%;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: #AC7D88;
+}
+
 .navbar{
     padding: 2.0rem 0 3.0rem;
 }
@@ -130,7 +134,7 @@ a:hover{
 }
 
 
-.footer{
+#footer{
     width: 100%;
     background-color: #AC7D88;
     text-align: center;
@@ -230,16 +234,19 @@ a:hover{
 
 .skill-dp3{
     width: 100%;
-    margin: 50px;
+    padding: 20px;
+    text-align: center;
 }
 
 .text{
     color: black;
 }
 
+
 .contact-me{
     width: 70%;
     margin: 40px auto 60px;
+    text-align: center;
 }
 
 .btn {

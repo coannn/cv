@@ -281,3 +281,7 @@ a:hover{
       color:#d1d1d1;
       font-size: 0.75rem;
   }
+
+  .left{
+    text-align: right;
+  }
